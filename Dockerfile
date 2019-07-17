@@ -1,7 +1,8 @@
 FROM ubuntu:18.10
+MAINTAINER Jonathan T Abila (jonathanabila@hotmail.com)
 
 RUN apt-get update && apt-get install -y \
-    python3.7 python3-pip \
+    python3.6 python3-pip \
     libappindicator3-1 libasound2 \
     libatk-bridge2.0-0 libatspi2.0-0 libgtk-3-0 \
     libgconf2-4 libnss3-dev libxss1 \

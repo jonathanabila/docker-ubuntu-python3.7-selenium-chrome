@@ -4,5 +4,5 @@ services:
   - docker
 
 script:
-  - docker build -t docker-ubuntu-python3.7-selenium-chrome .
-  - docker run docker-ubuntu-python3.7-selenium-chrome /bin/sh -c "python3 -V && pip3 --version"
+  - docker build -t docker-ubuntu-python3.6-selenium-chrome .
+  - docker run docker-ubuntu-python3.6-selenium-chrome /bin/sh -c "python3 -V && pip3 --version"
